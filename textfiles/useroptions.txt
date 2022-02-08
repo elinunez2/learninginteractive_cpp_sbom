@@ -1,0 +1,5 @@
+1. Learn about Referencing vs Dereferencing
+2. 'Singleton' design pattern
+3. Static keyword in C++  
+4. Exit program
+
