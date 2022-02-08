@@ -4,9 +4,7 @@
 
 
 using namespace std;
-//cout << "\nhopeully we exited by now" << endl;
-//log.SendMessage(log.LogLevelError,"Hello, I'm printing an error");
-//log.SendMessage(log.LogLevelWarning, "This is a warning");
+
 int main(){
 	bool keep_playing = true;
 	Director director;
