@@ -11,4 +11,6 @@ Uses:
 Weakness:
 	* Sometimes to have only one instance of a class is not your goal.
 	* By choosing convenience, you sacrifice transparency, meaning you might loose track of what you're doing.
-	* By making something accessible to everyone, it becomes potentially dangerous because that would make sensitive data more open to throughout your program creating vulnerabilities.
+	* By making something accessible to everyone, it becomes potentially dangerous because that would make sensitive data
+		 more open to throughout your program creating vulnerabilities.
+
