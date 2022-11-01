@@ -25,7 +25,7 @@ jobs:
     
     - name: Compile Errythang
       run: |
-        g++ -o out -I ./*.cpp
+        g++ *.cpp
         find . -type f -name "*.o"
     
     - name: Generate SBOM
