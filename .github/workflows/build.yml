@@ -23,6 +23,10 @@ jobs:
       run: |
         gcc -v
     
+    - name: Compile Errythang
+      run: |
+        g++ *.cpp
+    
     - name: Generate SBOM
       run: |
         curl -Lo $RUNNER_TEMP/sbom-tool https://github.com/microsoft/sbom-tool/releases/latest/download/sbom-tool-linux-x64
