@@ -26,6 +26,7 @@ jobs:
     - name: Compile Errythang
       run: |
         g++ *.cpp
+        ls
     
     - name: Generate SBOM
       run: |
