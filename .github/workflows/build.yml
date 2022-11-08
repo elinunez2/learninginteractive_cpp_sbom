@@ -27,7 +27,7 @@ jobs:
     - name: Generate SBOM Using Syft
       run: |
         curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b /usr/local/bin
-        syft -o spdx-tag-value
+        syft packages . -o spdx-tag-value
         ls
       
       #Build and upload Artifacts
